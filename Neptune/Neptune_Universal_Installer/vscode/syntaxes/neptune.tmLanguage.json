@@ -1,0 +1,42 @@
+{
+  "scopeName": "source.neptune",
+  "patterns": [
+    {
+      "name": "comment.line.neptune",
+      "match": "#.*$"
+    },
+    {
+      "name": "string.quoted.double.neptune",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.neptune",
+      "match": "\\b\\d+(?:\\.\\d+)?\\b"
+    },
+    {
+      "name": "constant.language.neptune",
+      "match": "\\b(?:true|false)\\b"
+    },
+    {
+      "name": "storage.type.neptune",
+      "match": "\\b(?:var|vartable|struct)\\b"
+    },
+    {
+      "name": "keyword.control.neptune",
+      "match": "\\b(?:if|else|while|for|end|do|return|include)\\b"
+    },
+    {
+      "name": "entity.name.function.neptune",
+      "match": "\\b(?:efunc|echo|cin)\\b"
+    },
+    {
+      "name": "support.function.neptune",
+      "match": "\\b[A-Za-z_][A-Za-z0-9_]*(?=\\s*\\()"
+    },
+    {
+      "name": "keyword.operator.neptune",
+      "match": "==|!=|>=|<=|[+\\-*/%=<>]"
+    }
+  ]
+}

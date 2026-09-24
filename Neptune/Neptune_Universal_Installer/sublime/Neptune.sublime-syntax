@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+name: Neptune C--
+file_extensions:
+  - nep
+scope: source.neptune
+contexts:
+  main:
+    - match: '#.*$'
+      scope: comment.line.neptune
+    - match: '"'
+      push: string
+    - match: '\b(var|vartable|struct)\b'
+      scope: storage.type.neptune
+    - match: '\b(if|else|while|for|end|do|return|include)\b'
+      scope: keyword.control.neptune
+    - match: '\b(efunc|echo|cin)\b'
+      scope: entity.name.function.neptune
+    - match: '\b(true|false)\b'
+      scope: constant.language.neptune
+    - match: '\b[0-9]+(?:\.[0-9]+)?\b'
+      scope: constant.numeric.neptune
+    - match: '==|!=|>=|<=|[+*/%=<>-]'
+      scope: keyword.operator.neptune
+  string:
+    - meta_scope: string.quoted.double.neptune
+    - match: '\\.'
+      scope: constant.character.escape.neptune
+    - match: '"'
+      pop: true
