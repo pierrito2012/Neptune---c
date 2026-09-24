@@ -81,9 +81,7 @@ Isso abrirá o **modo de código do Neptune**, permitindo escrever e executar c�
 
 ## 📖 Manual
 
-O manual com os comandos e recursos da linguagem está disponível no próprio projeto, dentro da pasta do Neptune.
-
-Consulte o `README`/manual presente na pasta para conhecer os comandos disponíveis.
+O manual com os comandos e recursos da linguagem está disponível no wiki do reporsitório
 
 ---
 
