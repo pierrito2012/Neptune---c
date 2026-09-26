@@ -1,0 +1,32 @@
+{
+  "name": "neptune-c--",
+  "displayName": "Neptune C--",
+  "description": "Syntax highlighting and file association for Neptune C--",
+  "version": "1.0.0",
+  "publisher": "neptune",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "neptune",
+        "aliases": [
+          "Neptune C--",
+          "Neptune"
+        ],
+        "extensions": [
+          ".nep"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "neptune",
+        "scopeName": "source.neptune",
+        "path": "./syntaxes/neptune.tmLanguage.json"
+      }
+    ]
+  }
+}

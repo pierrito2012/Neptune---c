@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UserLang name="Neptune C--" ext="nep" udlVersion="2.1">
+<Settings>
+<Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" decimalSeparator="0"/>
+<Prefix Keywords1="yes" Keywords2="yes" Keywords3="yes" Keywords4="yes"/>
+</Settings>
+<KeywordLists>
+<Keywords name="Comments">00# 01 02 03 04</Keywords>
+<Keywords name="Numbers, prefix1"></Keywords><Keywords name="Numbers, prefix2"></Keywords>
+<Keywords name="Numbers, extras1"></Keywords><Keywords name="Numbers, extras2"></Keywords>
+<Keywords name="Numbers, suffix1"></Keywords><Keywords name="Numbers, suffix2"></Keywords>
+<Keywords name="Operators1">+ - * / = == != &gt; &lt; &gt;= &lt;=</Keywords><Keywords name="Operators2"></Keywords>
+<Keywords name="Folders in code1, open">{</Keywords><Keywords name="Folders in code1, middle"></Keywords><Keywords name="Folders in code1, close">}</Keywords>
+<Keywords name="Folders in code2, open"></Keywords><Keywords name="Folders in code2, middle"></Keywords><Keywords name="Folders in code2, close"></Keywords>
+<Keywords name="Folders in comment, open"></Keywords><Keywords name="Folders in comment, middle"></Keywords><Keywords name="Folders in comment, close"></Keywords>
+<Keywords name="Keywords1">var vartable struct</Keywords>
+<Keywords name="Keywords2">if else while for end do return include</Keywords>
+<Keywords name="Keywords3">efunc echo cin true false</Keywords>
+<Keywords name="Keywords4"></Keywords>
+<Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16</Keywords>
+</KeywordLists>
+<Styles>
+<WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0"/>
+<WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="2"/>
+<WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="2"/>
+<WordsStyle name="NUMBERS" fgColor="800080" bgColor="FFFFFF" fontStyle="0"/>
+<WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1"/>
+<WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontStyle="1"/>
+<WordsStyle name="KEYWORDS3" fgColor="008080" bgColor="FFFFFF" fontStyle="1"/>
+<WordsStyle name="OPERATORS" fgColor="800000" bgColor="FFFFFF" fontStyle="0"/>
+<WordsStyle name="DELIMITERS1" fgColor="A31515" bgColor="FFFFFF" fontStyle="0"/>
+</Styles>
+</UserLang>

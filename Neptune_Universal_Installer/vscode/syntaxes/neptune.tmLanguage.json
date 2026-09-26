@@ -1,0 +1,15 @@
+{
+  "scopeName": "source.neptune",
+  "patterns": [
+    { "name": "comment.line.number-sign.neptune", "match": "#.*$" },
+    { "name": "string.quoted.double.neptune", "begin": "\\\"", "end": "\\\"", "patterns": [{ "match": "\\\\.", "name": "constant.character.escape.neptune" }] },
+    { "name": "constant.numeric.neptune", "match": "\\b\\d+(?:\\.\\d+)?\\b" },
+    { "name": "constant.language.neptune", "match": "\\b(?:true|false)\\b" },
+    { "name": "storage.type.neptune", "match": "\\b(?:var|vartable|struct)\\b" },
+    { "name": "keyword.control.neptune", "match": "\\b(?:if|else|while|for|end|do|return)\\b" },
+    { "name": "keyword.other.module.neptune", "match": "(?:/Include|/define|\\binclude\\b|\\bInclude\\b|\\bdefine\\b)" },
+    { "name": "entity.name.function.neptune", "match": "\\b(?:efunc|echo|cin|type|length|add|remove|clear|upper|lower|contains|replace|substring|read|write|append|exists|delete)\\b" },
+    { "name": "support.function.neptune", "match": "\\b[A-Za-z_][A-Za-z0-9_]*(?=\\s*\\()" },
+    { "name": "keyword.operator.neptune", "match": "==|!=|>=|<=|[+\\-*/%=<>@]" }
+  ]
+}

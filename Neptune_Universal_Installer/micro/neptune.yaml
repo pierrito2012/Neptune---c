@@ -1,0 +1,10 @@
+filetype: nep
+detect: "\\.nep$"
+comment: "#"
+color: statement "if|else|while|for|end|do|return|include|Include|define"
+color: type "var|vartable|struct"
+color: identifier "efunc|echo|cin|type|length|add|remove|clear|upper|lower|contains|replace|substring|read|write|append|exists|delete"
+color: constant "\\b(true|false|[0-9]+(\\.[0-9]+)?)\\b"
+color: string "\"[^\"\\n]*\""
+
+color: symbol "==|!=|>=|<=|[+*/%=<>-@]"
